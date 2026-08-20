@@ -53,15 +53,20 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/YOUR_REPO)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/hellolucient/spa-review-drafts)
 
-1. Push this repo to GitHub
-2. Import to Vercel
-3. Add `OPENAI_API_KEY` as an environment variable (optional)
+**One-Click Deploy:**
+1. Click the button above
+2. Optionally add `OPENAI_API_KEY` as an environment variable
+3. Deploy
+
+**Or via Vercel Dashboard:**
+1. Go to [vercel.com](https://vercel.com)
+2. Import this GitHub repository
+3. Optionally add `OPENAI_API_KEY` as an environment variable
 4. Deploy
 
-Or use the Vercel CLI:
-
+**Or use Vercel CLI:**
 ```bash
 npm install -g vercel
 vercel
